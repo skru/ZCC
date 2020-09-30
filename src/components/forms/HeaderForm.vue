@@ -47,7 +47,6 @@ export default {
       email: "",
       business: "",
       jobTitle: "",
-      
     };
   },
   methods: {

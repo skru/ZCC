@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<br><br>
-			<div class="columns">
+			<div class="columns is-vcentered">
 				<div class="column">
 					<figure class="image">
 					  <img src="../assets/img/footer.png">
