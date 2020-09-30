@@ -1,0 +1,70 @@
+$primary: #00ffaa;
+$input-focus-border-color: $primary;
+$footer-background-color: black;
+$footer-color: white;
+
+@import "~bulma/bulma";
+@import "../../node_modules/vueperslides/dist/vueperslides.css";
+@import '~@creativebulma/bulma-collapsible';
+
+body {
+	/*background: black;*/
+}
+
+/* main content */
+.content-section{
+	min-height: 100vh;
+	background: white;
+	
+}
+.negative-section {
+	background: black;
+	color: white;
+}
+.negative-section strong, .negative-section .label {
+	color: white;
+}
+.negative-section .button {
+	color: black;
+}
+.arrow-down {
+  position: absolute;
+  left: calc(50% - 60px);
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid white;
+}
+
+/* forms */
+.primary-button {
+	color: black;
+}
+.primary-button-text {
+	width: 100%;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: $primary;
+}
+
+
+/* carousel */
+.vueperslide--visible {
+	transform: scale(0.8);
+}
+.vueperslide--active {
+	transform: scale(1.2);
+	font-size: 1.2rem;
+}
+.vueperslides__arrow svg {
+	color: $primary;
+}
+.vueperslides__arrow {
+	margin: 50px;
+	top: 100%;
+}
+.vueperslide__title {
+	position: absolute;
+	top:10%;
+}
