@@ -10,7 +10,7 @@
 						Setup in minutes from a template or use drag-and-drop blocks to design your software. super simple!.
 					</p>
 					<p>
-						We're launching in a few weeks. so if also excited and eager to optinmise your software development efforts,
+						We're launching in a few weeks. so if also excited and eager to optimise your software development efforts,
 						fill in the form and we'll give you a nudge to get on board first!
 					</p>
 				</div>
